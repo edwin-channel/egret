@@ -41,7 +41,6 @@ var ThemeAdapter = (function () {
      */
     ThemeAdapter.prototype.getTheme = function (url, onSuccess, onError, thisObject) {
         var _this = this;
-        console.log(url);
         function onResGet(e) {
             onSuccess.call(thisObject, e);
         }
