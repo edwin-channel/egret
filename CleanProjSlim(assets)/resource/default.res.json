@@ -1,0 +1,22 @@
+{
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "default_eui_assets_json,default_eui_assets2_json"
+		}
+	],
+	"resources": [
+		{
+			"name": "default_eui_assets_json",
+			"type": "sheet",
+			"url": "assets/DefaultEUI/default_eui_assets.json",
+			"subkeys": "button_down_png,button_up_png,checkbox_unselect_png,checkbox_select_disabled_png,checkbox_select_up_png,checkbox_select_down_png,selected_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_unselect_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,track_sb_png,roundthumb_png,track_png,thumb_png,tracklight_png,on_png,off_png,handle_png"
+		},
+		{
+			"name": "default_eui_assets2_json",
+			"type": "sheet",
+			"url": "assets/DefaultEUI/default_eui_assets.json",
+			"subkeys": "button_down_png,button_up_png,checkbox_unselect_png,checkbox_select_disabled_png,checkbox_select_up_png,checkbox_select_down_png,selected_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_unselect_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,track_sb_png,roundthumb_png,track_png,thumb_png,tracklight_png,on_png,off_png,handle_png"
+		}
+	]
+}
