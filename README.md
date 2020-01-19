@@ -53,7 +53,7 @@ Egret Engine白鷺引擎是一套開源免費的完整的HTML5遊戲開發解決
 
 ★ 完成檔為 CleanProjSlim 專案
 
-### 7. Egret 白鷺引擎教學 - 空專案瘦身計畫~2 瘦到專業?
+### 7. Egret 白鷺引擎教學 - 空專案瘦身計畫~2 還要更瘦?
 
 ★ 請下載 CleanProjSlim 專案
 
