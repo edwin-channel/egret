@@ -24,6 +24,7 @@ class Main extends eui.UILayer {
         // 歡迎來到 EDWIN CHANNEL
         // [github] https://github.com/edwin-channel/egret
         // [youtube] https://www.youtube.com/channel/UC22aGo0GmUgt2_WeDwZpahQ
+        // [gmail] edwin.channel.tw@gmail.com
         // 此專案為開源歡迎分享, 請先編譯看專案畫面, 程式碼 22~41 行可刪除
 
         // 建立背景 (可刪)
