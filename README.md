@@ -47,16 +47,20 @@ Egret Engine白鷺引擎是一套開源免費的完整的HTML5遊戲開發解決
 
 ★ 第三方庫 keyboard & mouse 範例實作
 
-### 6. Egret 白鷺引擎教學 - 空專案瘦身計畫~1 合併壓縮
+### 6. [Egret 白鷺引擎教學 - 空專案瘦身計畫~1 合併壓縮](https://www.youtube.com/watch?v=-VHeJmgeokI&list=PLblbeFJz5_8UOCQB8UV2OD9QcdYIKOKBg&index=6)
 
 ★ 請下載 CleanProj 專案
 
 ★ 完成檔為 CleanProjSlim 專案
 
-### 7. Egret 白鷺引擎教學 - 空專案瘦身計畫~2 還要更瘦?
+★ Texture Merger
+
+### 7. [Egret 白鷺引擎教學 - 空專案瘦身計畫~2 還要更瘦?](https://www.youtube.com/watch?v=-VHeJmgeokI&list=PLblbeFJz5_8UOCQB8UV2OD9QcdYIKOKBg&index=7)
 
 ★ 請下載 CleanProjSlim 專案
 
 ★ 完成檔為 CleanProjSlimPro 專案
 
-### 8. Egret 白鷺引擎教學 - EUI相似功能類別取代
+★ 為何要用 eui 與 eui 操作範例
+
+### 8. Egret 白鷺引擎教學 - index.html js下載加速版
