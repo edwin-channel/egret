@@ -9,7 +9,7 @@ Egret Engine白鷺引擎是一套開源免費的完整的HTML5遊戲開發解決
 
 ==================
 
-##[Egret 白鷺引擎教學影片 << 點此觀看](https://www.youtube.com/watch?v=-SrDUz16YIs&list=PLblbeFJz5_8UOCQB8UV2OD9QcdYIKOKBg&index=1)
+## [Egret 白鷺引擎教學影片 << 點此觀看](https://www.youtube.com/watch?v=-SrDUz16YIs&list=PLblbeFJz5_8UOCQB8UV2OD9QcdYIKOKBg&index=1)
 
 ### 1. Egret 白鷺引擎教學 - 軟體安裝與專案結構介紹
 
