@@ -9,19 +9,21 @@ Egret Engine白鷺引擎是一套開源免費的完整的HTML5遊戲開發解決
 
 ==================
 
-### 1. [Egret 白鷺引擎教學 - 軟體安裝與專案結構介紹](https://www.youtube.com/watch?v=-SrDUz16YIs&list=PLblbeFJz5_8UOCQB8UV2OD9QcdYIKOKBg&index=1)
+[Egret 白鷺引擎教學影片](https://www.youtube.com/watch?v=-SrDUz16YIs&list=PLblbeFJz5_8UOCQB8UV2OD9QcdYIKOKBg&index=1)
+
+### 1. Egret 白鷺引擎教學 - 軟體安裝與專案結構介紹
 
 ★ 專案結構介紹
 
 ★ Chrome FPS Meter
 
-### 2. [Egret 白鷺引擎教學 - 建立一個乾淨的專案~1 預設專案程式碼整理](https://www.youtube.com/watch?v=-SrDUz16YIs&list=PLblbeFJz5_8UOCQB8UV2OD9QcdYIKOKBg&index=2)
+### 2. Egret 白鷺引擎教學 - 建立一個乾淨的專案~1 預設專案程式碼整理
 
 ★ 怎麼整理官方預設專案 Main.ts 程式碼與刪除預設圖檔
 
 ★ 完成檔為 CleanProj 專案
 
-### 3. [Egret 白鷺引擎教學 - 建立一個乾淨的專案~2 主程式碼 Main.ts 解說](https://www.youtube.com/watch?v=-SrDUz16YIs&list=PLblbeFJz5_8UOCQB8UV2OD9QcdYIKOKBg&index=3)
+### 3. Egret 白鷺引擎教學 - 建立一個乾淨的專案~2 主程式碼 Main.ts 解說
 
 ★ 請下載 CleanProj 專案
 
@@ -31,7 +33,7 @@ Egret Engine白鷺引擎是一套開源免費的完整的HTML5遊戲開發解決
 
 ★ Main.ts 的 AssetsAdapter & ThemeAdapter 講解
 
-### 4. [Egret 白鷺引擎教學 - 瑣碎事~1 egret launcher 與白鷺相關產品](https://www.youtube.com/watch?v=-VHeJmgeokI&list=PLblbeFJz5_8UOCQB8UV2OD9QcdYIKOKBg&index=4)
+### 4. Egret 白鷺引擎教學 - 瑣碎事~1 egret launcher 與白鷺相關產品
 
 ★ 如何導入專案
 
@@ -39,7 +41,7 @@ Egret Engine白鷺引擎是一套開源免費的完整的HTML5遊戲開發解決
 
 ★ egret相關產品介紹
 
-### 5. [Egret 白鷺引擎教學 - 瑣碎事~2 開發者中心與第三方庫導入](https://www.youtube.com/watch?v=-VHeJmgeokI&list=PLblbeFJz5_8UOCQB8UV2OD9QcdYIKOKBg&index=5)
+### 5. Egret 白鷺引擎教學 - 瑣碎事~2 開發者中心與第三方庫導入
 
 ★ 如何學習egret
 
@@ -47,7 +49,7 @@ Egret Engine白鷺引擎是一套開源免費的完整的HTML5遊戲開發解決
 
 ★ 第三方庫 keyboard & mouse 範例實作
 
-### 6. [Egret 白鷺引擎教學 - 空專案瘦身計畫~1 合併壓縮](https://www.youtube.com/watch?v=-VHeJmgeokI&list=PLblbeFJz5_8UOCQB8UV2OD9QcdYIKOKBg&index=6)
+### 6. Egret 白鷺引擎教學 - 空專案瘦身計畫~1 合併壓縮
 
 ★ 請下載 CleanProj 專案
 
@@ -55,7 +57,7 @@ Egret Engine白鷺引擎是一套開源免費的完整的HTML5遊戲開發解決
 
 ★ Texture Merger
 
-### 7. [Egret 白鷺引擎教學 - 空專案瘦身計畫~2 還要更瘦?](https://www.youtube.com/watch?v=-VHeJmgeokI&list=PLblbeFJz5_8UOCQB8UV2OD9QcdYIKOKBg&index=7)
+### 7. Egret 白鷺引擎教學 - 空專案瘦身計畫~2 還要更瘦?
 
 ★ 請下載 CleanProjSlim 專案
 
