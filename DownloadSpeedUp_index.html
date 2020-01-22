@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style> html, body { -ms-touch-action: none; background: #888888; padding: 0; border: 0; margin: 0; height: 100%; } </style>
+</head>
+
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="showAll"
+         data-frame-rate="30"
+         data-content-width="640"
+         data-content-height="1136"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+<script>
+    /** 
+     * 由 Edwin Channel 改製
+     *
+     * 歡迎來到 EDWIN CHANNEL
+     * [github] https://github.com/edwin-channel/egret
+     * [youtube] https://www.youtube.com/channel/UC22aGo0GmUgt2_WeDwZpahQ
+     * [gmail] edwin.channel.tw@gmail.com
+     */
+
+    // 加速下載開關
+    let speedup = true; 
+
+    fetch('./manifest.json?v=' + Math.random()).then(response => response.json()).then(async manifest => {
+        var list = manifest.initial.concat(manifest.game);
+        
+        // Promise 版本載入 js 函式
+        function loadScript(src) {
+            return new Promise(resolve => {
+                var s = document.createElement('script');
+                s.async = false;
+                s.src = src;
+                s.addEventListener('load', function () {
+                    s.parentNode.removeChild(s);
+                    s.removeEventListener('load', arguments.callee, false);
+                    resolve();
+                }, false);
+                document.body.appendChild(s);
+            });
+        }
+
+        if(speedup){
+            // Promise.all 並行有序加速下載 js
+            let pList = [];
+            for(let i = 0; i < list.length; i++) 
+                pList.push(loadScript(list[i]));
+            await Promise.all(pList);
+            // 此為專案內 resource 資料夾下載線程數設置(預設是4), 官方提到網頁上由瀏覽器決定，runtime上最大值是16
+            RES.setMaxLoadingThread(16);
+        }else{
+            // 伺服器的頻寬只有2Mb/s，某個資源的下載速度是1Mb/s每秒，系統啟動10個執行緒下載資源，
+            // 下載速度不會變成10Mb/s，所以要考慮這些資源的限制，分享多點頻寬資源給其他玩家
+            // 單一線程下載 js
+            for(let i = 0; i < list.length; i++) 
+                await loadScript(list[i])
+            // 單一線程下載 resource 資料夾資源
+            RES.setMaxLoadingThread(1);
+        }
+
+        /**
+         * {
+         * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
+         * "audioType": 0 //Use the audio type, 0: default, 2: web audio, 3: audio
+         * "antialias": //Whether the anti-aliasing is enabled in WebGL mode, true: on, false: off, defaults to false
+         * "calculateCanvasScaleFactor": //a function return canvas scale factor
+         * }
+         **/
+        egret.runEgret({ renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor:function(context) {
+            var backingStore = context.backingStorePixelRatio ||
+                context.webkitBackingStorePixelRatio ||
+                context.mozBackingStorePixelRatio ||
+                context.msBackingStorePixelRatio ||
+                context.oBackingStorePixelRatio ||
+                context.backingStorePixelRatio || 1;
+            return (window.devicePixelRatio || 1) / backingStore;
+        }});
+    })
+</script>
+</body>
+
+</html>
