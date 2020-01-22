@@ -65,4 +65,6 @@ Egret Engine白鷺引擎是一套開源免費的完整的HTML5遊戲開發解決
 
 ★ 為何要用 eui 與 eui 操作範例
 
-### 8. Egret 白鷺引擎教學 - index.html js下載加速版
+### 8. Egret 白鷺引擎教學 - 核心 js 網頁加速下載
+
+★ index.html script 標籤內容改造
